@@ -32,7 +32,7 @@ namespace ListGradebook
             {
                 Console.WriteLine("Grade for " + student + ": ");
                 input = Console.ReadLine();
-                double grade = Double.Parse(input);
+                double grade = double.Parse(input);
                 grades.Add(grade);
             }
 
